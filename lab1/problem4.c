@@ -21,7 +21,7 @@ int main() {
 	array1[2] = atoi(num3);
 
 	printf("--------------------------------\n");
-	printf("Enter the second array's values \n");
+	printf("Enter the second array's values: \n");
 	printf("--------------------------------\n");
 
 	printf("Enter a number: ");
@@ -42,7 +42,7 @@ int main() {
 	array3[4] = array2[1];
 	array3[5] = array2[2];
 
-	printf("\nThe merged array is [%lf, %lf, %lf, %lf, %lf, %lf]", array3[0], array3[1], array3[2], array3[3], array3[4], array3[5]);
+	printf("\nThe merged array is [%lf, %lf, %lf, %lf, %lf, %lf].", array3[0], array3[1], array3[2], array3[3], array3[4], array3[5]);
 }
 
 
